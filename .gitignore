@@ -1,0 +1,114 @@
+# ROS 2 specific
+build/
+install/
+log/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.dylib
+*.dll
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build system
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+catkin_make/
+catkin_ws/
+devel/
+build_isolated/
+devel_isolated/
+install_isolated/
+
+# Package specific
+*.msg
+*.srv
+*.action
+
+# Documentation
+doc/
+docs/
+*.md
+!README.md
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.orig
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.rosout
+*.bag
+*.bag.active
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# C/C++
+*.o
+*.a
+*.la
+*.lo
+*.obj
+*.exe
+*.out
+*.app
+*.i
+*.ii
+*.d
+*.dll
+*.so
+*.dylib
+*.su
+*.idb
+*.pdb
+*.lib
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sdf
+*.world
+
+# 3D Models and Meshes
+# Note: If these meshes are essential for your project, consider:
+# 1. Using Git LFS for version control
+# 2. Providing download instructions in README
+# 3. Using a package manager to handle them
+meshes/
+*.stl
+*.dae
+*.obj
+*.ply
+*.3ds
+*.fbx
+*.blend
+*.blend1 
