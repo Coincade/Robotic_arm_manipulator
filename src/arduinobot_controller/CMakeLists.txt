@@ -15,7 +15,7 @@ find_package(ros2_control REQUIRED)
 find_package(ros2_controllers REQUIRED)
 
 install(
-  DIRECTORY config
+  DIRECTORY config launch
   DESTINATION share/${PROJECT_NAME}
 )
 
