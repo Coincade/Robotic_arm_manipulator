@@ -31,7 +31,6 @@ install_isolated/
 
 # Package specific
 *.msg
-*.srv
 *.action
 
 # Documentation
