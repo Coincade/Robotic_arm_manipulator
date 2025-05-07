@@ -23,6 +23,7 @@ setup(
             'simple_publisher = arduinobot_py_examlpes.simple_publisher:main',
             'simple_subscriber = arduinobot_py_examlpes.simple_subscriber:main',
             'simple_parameter = arduinobot_py_examlpes.simple_parameter:main',
+            'simple_service_server = arduinobot_py_examlpes.simple_service_server:main',
         ],
     },
 )

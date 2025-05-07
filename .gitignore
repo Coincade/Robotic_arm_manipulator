@@ -112,3 +112,6 @@ meshes/
 *.fbx
 *.blend
 *.blend1 
+
+*.pdf
+*.gv
